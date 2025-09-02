@@ -1,5 +1,5 @@
 import React, { useRef } from "react";
-import "../styles/continueWatching.css";
+import "../styles/continuewatching.css";
 
 function ContinueWatching() {
   const sliderRef = useRef(null);
@@ -134,5 +134,6 @@ function ContinueWatching() {
     </section>
   );
 }
+
 
 export default ContinueWatching;
