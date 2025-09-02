@@ -1,0 +1,271 @@
+/* HERO SECTION */
+.hero {
+  position: relative;
+  width: 100%;
+  max-width: 100%;
+  height: 225px;
+  background-image: url("");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-bottom: 20px;
+}
+
+.overlay {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  background-color: transparent;
+  height: 225px;
+  width: 100%;
+}
+
+.hero-content {
+  width: 100%;
+  height: 118px;
+  gap: 12px;
+  margin-left: 22px;
+  margin-right: 18px;
+  margin-top: 67px;
+  margin-bottom: 40px;
+}
+
+.hero-content h1 {
+  font-size: 24px;
+  line-height: 120%;
+  letter-spacing: 0%;
+  font-weight: 700;
+  margin-bottom: 12px;
+  color: white;
+}
+
+.hero-content .multiline-ellipsis {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical; /* Atur arah blok */
+  overflow: hidden; /* Sembunyikan sisa teks */
+  text-overflow: ellipsis; /* Tambahkan ... */
+  font-size: 12px;
+  line-height: 140%;
+  letter-spacing: 0.2px;
+  font-weight: 500;
+  margin-bottom: 12px;
+  font-style: normal;
+  color: white;
+  width: 100%;
+  max-width: 320px;
+}
+.hero-buttons {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+/* Tombol Mulai */
+.start-btn {
+  padding: 4px 12px;
+  background-color: rgba(15, 30, 147, 1);
+  color: white;
+  border: none;
+  border-radius: 48px;
+  font-weight: bold;
+  font-size: 12px;
+  cursor: pointer;
+  width: 55px;
+  height: 25px;
+  line-height: 140%;
+  letter-spacing: 0.2px;
+}
+
+/* Info: Icon + Text */
+.info-btn {
+  display: flex;
+  align-items: center;
+  background-color: rgba(34, 40, 42, 1);
+  color: white;
+  font-size: 12px;
+  border-radius: 48px;
+  padding: 4px 12px;
+  gap: 8px;
+  height: 25px;
+  width: 120px;
+  line-height: 140%;
+  letter-spacing: 0.2px;
+  cursor: pointer;
+}
+
+.info-btn img {
+  width: 12px;
+  height: 12px;
+}
+
+/* Label 18+ */
+.age-limit {
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 140%;
+  letter-spacing: 0.2px;
+  color: rgba(255, 255, 255, 1);
+  border: 1px solid rgba(193, 194, 196, 1);
+  border-radius: 24px;
+  width: 30px;
+  height: 25px;
+  padding: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+/* Icon Volume */
+.volume {
+  width: 24px;
+  height: 25px;
+  cursor: pointer;
+  margin-left: auto;
+}
+.continue-watching h2 {
+  font-weight: 700;
+  line-height: 120%;
+  letter-spacing: 0%;
+  margin-bottom: 20px;
+  font-size: 20px;
+  margin-left: 20px;
+}
+@media screen and (max-width: 768px) {
+  .slider-arrow.left,
+  .slider-arrow.right {
+    display: none;
+  }
+  .slider-arrow.left-1,
+  .slider-arrow.right-1 {
+    display: none;
+  }
+  .slider {
+    margin-left: 20px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .hero {
+    position: relative;
+    width: 100%;
+    max-width: 100%;
+    height: 587px;
+    background-image: url("Untuk Beranda/gambar latihan militer di header.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .overlay {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: transparent;
+    height: 587px;
+    width: 100%;
+  }
+  .hero-content {
+    width: 100%;
+    height: 233px;
+    gap: 12px;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-top: 274px;
+    margin-bottom: 80px;
+  }
+
+  .hero-content h1 {
+    font-size: 48px;
+    line-height: 110%;
+    letter-spacing: 0%;
+    font-weight: 700;
+    margin-bottom: 20px;
+  }
+
+  .hero-content .multiline-ellipsis {
+    display: block; /* kembali normal */
+    overflow: visible;
+    -webkit-line-clamp: unset;
+    -webkit-box-orient: unset;
+    text-overflow: unset;
+    max-width: 600px;
+    margin-bottom: 40px;
+  }
+  .hero-content p {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 140%;
+    letter-spacing: 0.2px;
+  }
+  .hero-buttons {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  /* Tombol Mulai */
+  .start-btn {
+    padding: 10px 26px;
+    background-color: rgba(15, 30, 147, 1);
+    color: white;
+    border: none;
+    border-radius: 48px;
+    font-weight: 700;
+    font-size: 16px;
+    cursor: pointer;
+    width: 93px;
+    height: 45px;
+    line-height: 140%;
+    letter-spacing: 0.2px;
+  }
+
+  /* Info: Icon + Text */
+  .info-btn {
+    display: flex;
+    align-items: center;
+    background-color: rgba(34, 40, 42, 1);
+    font-size: 16px;
+    border-radius: 48px;
+    padding: 10px 26px;
+    gap: 8px;
+    height: 45px;
+    width: 185px;
+    line-height: 140%;
+    letter-spacing: 0.2px;
+    cursor: pointer;
+  }
+
+  .info-btn img {
+    width: 20px;
+    height: 20px;
+    margin-top: 2px;
+    margin-left: 2px;
+  }
+
+  /* Label 18+ */
+  .age-limit {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 140%;
+    letter-spacing: 0.2px;
+    color: rgba(255, 255, 255, 1);
+    border: 1px solid rgba(193, 194, 196, 1);
+    border-radius: 24px;
+    width: 52px;
+    height: 45px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  /* Icon Volume */
+  .volume {
+    width: 44px;
+    height: 45px;
+    cursor: pointer;
+    margin-left: auto;
+    margin-right: -70px;
+  }
+}
